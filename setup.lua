@@ -12,6 +12,8 @@ local scripts = {
     'autoStat.lua',
     'autoTier.lua',
     'autoSpread.lua',
+    'autoSpreadForBreeding.lua',
+    'autoSpreadForProduction.lua',
     'uninstall.lua'
 }
 
@@ -26,7 +28,7 @@ end
 if #args >= 2 then
     repo = args[2]
 else
-    repo = 'https://raw.githubusercontent.com/DylanTaylor1/GTNH-CropAutomation/'
+    repo = 'https://raw.githubusercontent.com/Nerus92/GTNH-CropAutomation/'
 end
 
 -- INSTALL
